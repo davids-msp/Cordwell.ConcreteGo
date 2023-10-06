@@ -5,7 +5,7 @@ using System.Globalization;
 
 var appId = "";
 var appKey = "";
-var apiUrl = "http://cordwell.api.concretego.com/webcreteapi.asmx"; // better check this path - ours is hallett.api.concretego.com
+var apiUrl = "http://hallett.api.concretego.com/webcreteapi.asmx"; 
 var user = "user@hallett.com.au";
 var pass = "";
 
