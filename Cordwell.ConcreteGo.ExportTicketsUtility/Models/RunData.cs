@@ -13,7 +13,7 @@ namespace Cordwell.ConcreteGo.ExportTicketsUtility.Models
         public DateTime Order_Date { get; set; }
         public DateTime Ship_Date { get; set; }
         public int Ticket_Number { get; set; }
-        public int Plant_Id { get; set; }
+        public string Plant_Id { get; set; }
         public string PlantDesc { get; set; }
         public int JonelInvNum { get; set; }
         public int Job_ID { get; set; }

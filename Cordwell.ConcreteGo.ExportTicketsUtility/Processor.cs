@@ -28,7 +28,7 @@ namespace Cordwell.ConcreteGo.ExportTicketsUtility
                             Ship_Date = (DateTime)ticket.PrintedTime,
                             Ticket_Number = ticket.TicketCode,
                             Ticket_Id = ticket.TicketID,
-                            Plant_Id = int.Parse(ticket.PlantCode),
+                            Plant_Id = ticket.PlantCode,
                             PlantDesc = ticket.PlantName,
                             Job_Number = ticket.OrderCode,
                             Job_ID = ticket.OrderID,
